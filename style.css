@@ -1,0 +1,862 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+img {
+    border-radius: 5px;
+}
+
+
+/* CABECALHO */
+
+header {
+    width: 100%;
+    background-color: #7C7C7C;
+}
+
+#menuToggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+
+.container {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    max-width: 100%;
+  
+}
+
+.vides{
+    max-width: 100%;
+}
+.logo h1{
+    background-color: #7C7C7C;
+    font-size: 40px;
+    color: #dddddd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho {
+    display: flex;
+}
+
+#divBusca {
+    background-color: #dddddd;
+    border: solid 2px black;
+    border-radius: 15px;
+    width: 250px;
+    height: 22px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#lupa {
+    width: 20px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    font-size: 15px;
+    border: none;
+    height: 18px;
+    width: 168px;
+    margin-left: 3px;
+}
+
+#btnBusca {
+    border: none;
+    float: left;
+    height: 18px;
+    border-radius: 0 11px 11px 0;
+    width: 55px;
+    font-weight: bold;
+    background: black;
+    color: #E0EEEE;
+}
+
+#divBusca img {
+    float: left;
+}
+
+/* FIM CABECALHO */
+
+
+
+
+/* DESTAQUES */
+h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: #dddddd;
+}
+
+.destaques {
+    max-width: 100%;
+    padding: 5px 30px 15px 30px;
+    display: grid;
+    grid-gap: 10px;
+    background-color: #dddddd;
+}
+
+.destaques div {
+    padding: 10px;
+}
+
+#mais {
+    display: none;
+}
+
+
+.texto {
+    grid-column: 2/2;
+    max-width: 100%;
+}
+
+.texto p {
+    padding: 5px;
+    font-size: 18px;
+}
+
+
+
+
+
+/* FIM DESTAQUES */
+
+/* POPULARES */
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+
+.populares {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aba {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 35px 10px 35px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixas select {
+    width: 190px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.ordem {
+    margin-right: 20px;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img-game{
+    max-width: 100%;
+    width: 400px;
+    height: 200px;
+}
+
+.botão {
+    display: block;
+    margin: 5px;
+    border-style: none;
+}
+
+.jogo {
+    padding: 0 30px;
+}
+
+.jogo iframe {
+    width: 400px;
+    height: 200px;
+}
+
+.tnota {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carregar {
+    max-width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 0 35px 15px;
+}
+
+.carregar button {
+    height: 25px;
+    border-radius: 5px;
+    background-color: #e0dbdb;
+    border-width: thin;
+}
+
+/* FIM POPULARES */
+
+/* PLATAFORMAS */
+
+.tplat {
+    max-width: 100%;
+    padding: 10px 35px 0;
+}
+
+.boxes {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    max-width: 100%;
+    padding: 15px;
+}
+
+.box ul li {
+    list-style-type: none;
+
+}
+
+.box img {
+    max-width: 100%;
+    width: 587px;
+    height: 400px;
+}
+
+/*FIM  PLATAFORMAS */
+
+
+/* PUBLISHERS */
+.tpub {
+    max-width: 100%;
+    padding: 10px 35px 0;
+    background-color: #dddddd;
+}
+
+.publishers {
+    background-color: #dddddd;
+}
+
+.carregar1 {
+    max-width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 0 35px 15px;
+}
+
+.carregar1 button {
+    height: 25px;
+    border-radius: 5px;
+    background-color: #b1aeae;
+    border-width: thin;
+}
+
+/* FIM PUBLISHERS */
+
+/* FIM */
+.fim {
+    max-width: 100%;
+    display: flex;
+    padding: 35px;
+    gap: 35px;
+    font-size: 20px;
+}
+
+
+.sobre {
+    max-width: 50%;
+}
+
+.edr {
+    max-width: 50%;
+}
+
+.editorial ul li {
+    list-style-type: none;
+}
+
+.redes button {
+    border: none;
+    background-color: transparent;
+}
+
+.redes img {
+    width: 50px;
+}
+
+.icones {
+    display: flex;
+
+}
+
+#facebook {
+    width: 60px;
+}
+
+#whatsapp {
+    width: 62px;
+}
+
+#instagram {
+    width: 56px;
+}
+
+/* FIM FIM */
+
+/* RODAPÉ */
+
+footer {
+    max-width: 100%;
+    background-color: #7C7C7C;
+
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* FIM RODAPÉ */
+
+/*  RESPONSIVIDADE */
+
+
+@media screen and (max-width:1860px) {
+
+    .jogo:nth-child(7) {
+        display: none;
+    }
+
+    .jogo:nth-child(8) {
+        display: none;
+    }
+
+
+    .box img {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:1340px) {
+
+
+    .video iframe {
+        height: 500px;
+    }
+
+    .box img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .jogo:nth-child(7) {
+        display: block;
+    }
+
+    .jogo:nth-child(8) {
+        display: block;
+    }
+}
+
+@media screen and (max-width:1165px) {
+
+
+    .box img {
+        width: 280px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width:980px) {
+
+
+    .destaques {
+        display: block;
+
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .botão {
+        font-size: 25px;
+    }
+
+    .texto p {
+        font-size: 30px;
+    }
+
+    .caixas select {
+        font-size: 18px;
+        height: 30px;
+    }
+
+    .tnota h3{
+        font-size: 30px;
+    }
+
+    .jogo img {
+        max-width: 100%;
+        width: 550px;
+        height: 300px;
+    }
+
+    .box img {
+        max-width: 100%;
+        width: 700px;
+        height: 450px;
+    }
+
+    .box ul li {
+        font-size: 25px;
+    }
+
+    .fim {
+        max-width: 100%;
+        display: block;
+        font-size: 30px;
+    }
+
+    .sobre {
+        max-width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .edr {
+        max-width: 100%;
+        display: flex;
+        gap: 35px;
+    }
+
+    .carregar button {
+        font-size: 18x;
+        height: 30px;
+        width: 200px;
+    }
+
+    .carregar1 button {
+        font-size: 18x;
+        height: 30px;
+        width: 200px;
+    }
+
+    .editorial ul li {
+        font-size: 23px;
+    }
+}
+
+/*  MEXER COM MENU */
+@media screen and (max-width:820px) {
+
+
+    .caixas select {
+        font-size: 15px;
+        width: 145px;
+    }
+
+    header {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+    }
+
+    header .menu {
+        display: absolute;
+        width: 100%;
+    }
+
+    .menu {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        transition: height 0.130s;
+    }
+
+    .menu li {
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    .menu li a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        color: rgb(199, 186, 161);
+    }
+
+    .menu-icon {
+        display: block;
+        color: rgb(199, 186, 161);
+        width: 50px;
+        height: inherit;
+        position: absolute;
+        top: 30px;
+        right: -15px;
+        line-height: 60px;
+        z-index: 999;
+    }
+
+    .menu-icon i {
+        font-size: 1.7em;
+    }
+
+    #menuToggle:checked~label i:nth-child(2) {
+        display: block;
+    }
+
+    #menuToggle:checked~label i:first-child {
+        display: none;
+    }
+
+    #menuToggle:not(checked)~label i:first-child {
+        display: block;
+    }
+
+    #menuToggle:not(checked)~label i:nth-child(2) {
+        display: none;
+    }
+
+    #menuToggle:checked~ul {
+        height: 100%;
+    }
+
+    .title{
+        padding-top: 60px;
+    }
+    .logo h1{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:720px) {
+
+
+    .tplat h2 {
+        text-align: center;
+    }
+
+    .tpub h2 {
+        text-align: center;
+    }
+
+    .aba {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .box img {
+        width: 508px;
+        height: 250px;
+    }
+
+    .menu-icon {
+        top:20px;
+        right: -15px;
+    }
+    .title{
+        padding-top: 50px;
+    }
+    .logo h1{
+        font-size: 25px;
+    }
+}
+
+/* COLOCAR LER MAIS NOS TEXTOS GRANDES */
+@media screen and (max-width:640px) {
+
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    .texto p {
+        font-size: 20px;
+    }
+
+    .video iframe {
+        height: 280px;
+
+    }
+
+    .jogo iframe {
+        width: 450px;
+        height: 220px;
+    }
+
+    #facebook {
+        width: 40px;
+    }
+
+    #whatsapp {
+        width: 42px;
+    }
+
+    #instagram {
+        width: 35px;
+    }
+
+    .container1 {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+
+    .carregar button {
+        font-size: 14px;
+        height: 40px;
+        width: 120px;
+        margin-top: 5px;
+    }
+
+    .carregar1 button {
+        font-size: 14px;
+        height: 40px;
+        width: 120px;
+        margin-top: 5px;
+    }
+
+    .container1 {
+        font-size: 14px;
+    }
+
+    .fim p {
+        font-size: 20px;
+    }
+
+    .menu-icon {
+        top: 10px;
+        right: 15px;
+        width: 20px;
+    }
+
+    .cabecalho {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    #divBusca {
+        width: 200px;
+        height: 20px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    #txtBusca {
+        font-size: 13px;
+        height: 18px;
+        width: 130px;
+        margin-left: 3px;
+    }
+
+    #btnBusca {
+        height: 18px;
+        border-radius: 0 5px 5px 0;
+        width: 43px;
+        font-size: 12px;
+    }
+    .title{
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width:445px) {
+
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .video iframe {
+        height: 215px;
+    }
+
+    .caixas select {
+        width: 130px;
+        height: 20px;
+    }
+
+    .aba h2 {
+        text-align: center;
+    }
+
+    .jogo iframe {
+        height: 200px;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .carregar {
+        justify-content: center;
+    }
+
+    .carregar1 {
+        justify-content: center;
+    }
+
+    .editorial ul li {
+        font-size: 19px;
+    }
+
+    .box ul li {
+        font-size: 20px;
+    }
+
+    .botão {
+        font-size: 18px;
+    }
+
+    .edr {
+        display: block;
+    }
+
+    .menu-icon {
+        width: 15px;
+    }
+
+    #btnBusca {
+        font-size: 11px;
+    }
+
+    @media screen and (max-width:375px) {
+
+
+        .caixas {
+            display: flex;
+            justify-content: center;
+        }
+
+        .caixas select {
+            width: 100px;
+            height: 30px;
+            font-size: 11px;
+        }
+
+        #divBusca {
+            width: 170px;
+            height: 20px;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+
+        #txtBusca {
+            font-size: 13px;
+            height: 18px;
+            width: 100px;
+            margin-left: 3px;
+        }
+
+        #btnBusca {
+            height: 18px;
+            border-radius: 0 5px 5px 0;
+            width: 43px;
+            font-size: 12px;
+        }
+    }
+}
